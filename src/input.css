@@ -24,7 +24,7 @@ body{
    flex-direction: row;
    width: 400%;
    transition: transform 1s ease-in-out;
-   animation:18s ease-out carusel-animation ;
+   animation:18s ease-out carusel-animation 3s;
    
 }
 @keyframes carusel-animation {
