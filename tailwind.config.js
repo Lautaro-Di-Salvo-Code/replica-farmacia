@@ -12,6 +12,9 @@ module.exports = {
       maxWidth:{
         "maximo-ancho": "1200px",
         "max-ancho-img":"100%"
+      },
+      height:{
+        "mini-icons-height":"3rem",
       }
     },
   },

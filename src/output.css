@@ -422,11 +422,7 @@ object {
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
 
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
@@ -957,93 +953,7 @@ video {
   transition-duration: 150ms;
 }
 
-body{
-  overflow-x: hidden;
-}
 
-.enlace-header{
-  border: solid 1px red ;
-}
-
-.borde-desc-caras{
-  border-top: solid .5px rgba(7, 6, 6, 0.149) ;
-}
-
-.ver-mas{
-  border: solid 1px rgb(0, 0, 0) ;
-}
-
-.img-header{
-  background-image: url(/assets/jyj-2980X621-10-scaled.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.another-bg-img{
-  background-image: url(/assets/cara1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.another-bg-img-2{
-  background-image: url(/assets/cara2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.another-bg-img-3{
-  background-image: url(/assets/cara3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.another-bg-img-4{
-  background-image: url(/assets/cara4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.img-product{
-  background-image: url(/assets/paquete.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.img-product-2{
-  background-image: url(/assets/paquete2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.img-product-3{
-  background-image: url(/assets/paquete3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.img-product-4{
-  background-image: url(/assets/paquete4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-img{
-  width: auto;
-  height: 3rem;
-}
-
-.borde-productos{
-  border: solid 1px rgb(243, 240, 240) ;
-}
 
 .selection\:max-w-maximo-ancho *::-moz-selection {
   max-width: 1200px;
