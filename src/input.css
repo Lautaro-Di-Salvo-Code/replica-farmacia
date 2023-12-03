@@ -14,8 +14,8 @@
 }
 
 body{
-  overflow-x: hidden;
-}
+    overflow-x: hidden;
+  }
 /* Carrusel header */
 
 .slidess{
@@ -24,7 +24,26 @@ body{
    flex-direction: row;
    width: 400%;
    transition: transform 1s ease-in-out;
+   animation:18s ease-out carusel-animation ;
    
+}
+@keyframes carusel-animation {
+  0%{
+
+    transform: translateX(0%);
+  }
+  25%{
+    transform: translateX(-25%); 
+
+  }
+  50%{
+    transform: translateX(-50%);
+
+  }
+  75%{
+    transform: translateX(-75%);
+
+}  
 }
 #slide1:checked ~ .slidess {
   transform: translateX(0%);
@@ -40,8 +59,13 @@ body{
 }
 
 
-
-
+.position-rel{
+  position: relative;
+}
+.pos-sticky{
+  position: sticky;
+  top: 0;
+}
 
 .carrusel input{
   display: none;
@@ -68,7 +92,8 @@ body{
     background-size: cover;
     background-position: center; */
     
-    object-fit: cover;
+    /* object-fit: contain;
+    height: fit-content; */
     
   }
   .img-header-2{
@@ -82,6 +107,7 @@ body{
 }
 .img-header-3{
   object-fit: cover;
+  object-position: center;
   /* background-image: url(/assets/back-image3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
