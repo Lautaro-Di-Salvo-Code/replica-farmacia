@@ -133,7 +133,7 @@ body{
 .another-bg-img-2{
     background-image: url(/assets/cara2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 
 }

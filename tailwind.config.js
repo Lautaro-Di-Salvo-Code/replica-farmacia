@@ -10,8 +10,8 @@ module.exports = {
         "tamaño-letra-global":"1rem",
       },
       maxWidth:{
-        "maximo-ancho": "1200px",
-        "max-ancho-img":"100%"
+        "maximo-ancho": "1400px",
+        "max-ancho-img":"100%",
       },
       height:{
         "mini-icons-height":"3rem",
