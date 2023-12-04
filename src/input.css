@@ -18,6 +18,18 @@ body{
   }
 /* Carrusel header */
 
+
+
+.ancho-nav >*{
+  padding: 0 1.3rem ;
+}
+.center-arrow{
+  padding: 21px 0;
+}
+.padding-nav-op{
+  padding: 2rem 1rem;
+}
+
 .slidess{
   overflow-x: hidden;
    display: flex;
