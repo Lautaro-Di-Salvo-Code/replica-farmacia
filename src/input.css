@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+li{
+  list-style: none;
+}
 .enlace-header{
     border: solid 1px red ;
 }
@@ -12,26 +14,54 @@
 .ver-mas{
     border: solid 1px rgb(0, 0, 0) ;
 }
+.options-darklight{
+  display: none;
+}
+.options-darklight.open{
+  
+  display: block;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 6rem;
+  right: 20rem;
+  z-index: 999;
 
+}
 body{
     overflow-x: hidden;
   }
-/* Carrusel header */
+
+
+
+
+
 
 
 
 .ancho-nav >*{
   padding: 0 1.3rem ;
 }
-.center-arrow{
-  padding: 21px 0;
+.center-hamburguer{
+  /* padding: 21px 0; */
 }
 .padding-nav-op{
-  padding: 2rem 1rem;
+  height: 3rem;
+  
+  
+}
+
+
+/* CARRUSEL */
+
+
+
+.ancho-options-nav{
+  /* width: 4rem; */
 }
 
 .slidess{
-  overflow-x: hidden;
+    overflow-x: hidden;
    display: flex;
    flex-direction: row;
    width: 400%;
@@ -97,6 +127,15 @@ body{
 #slide4:checked ~.aside-navegacion #punto4{
   background-color: rgb(22, 18, 18);
 }
+
+
+/* CARRUSEL FIN  */
+
+
+
+
+
+
 .img-header{
     /* background-image: url(/assets/back-image.jpg); */
     /* background-repeat: no-repeat;

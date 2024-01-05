@@ -17,7 +17,7 @@
 
         <div class="flex bg-red-500 justify-center ">
             
-            <i class="  text-1xl text-[#ffffff]">¡Usted está comprando en Farmacia Bufor!</i>
+            <i class="  text-1xl text-[#ffffff]">¡Usted está comprando en Mas Farmacia !</i>
         </div>
         <article class=" w-full mx-auto  max-w-maximo-ancho pos-sticky ">
 
@@ -28,17 +28,34 @@
                 <div class=" h-14 flex flex-wrap content-center justify-center">
                     <input class=" bg-slate-600 border-solid " type="search " placeholder="Buscar..">
                 </div>
-                <div class=" flex  ancho-nav h-[4rem]  flex-wrap content-center">
+                <div class=" flex  ancho-nav h-[5rem]  flex-wrap content-center">
                     <a class="cursor-pointer padding-nav-op">ingresar</a>
                     <a class="cursor-pointer padding-nav-op">registrarme</a>
-                    <img class="cursor-pointer " src="/carrito.svg" alt="">
-                    <div class="center-arrow cursor-pointer ">
+                    <img class="cursor-pointer h-[3rem]" src="/carrito.svg" alt="">
+                    <li class="options-father ancho-options-nav">
+                        <ul class="center-hamburguer cursor-pointer hamburguer-darklight flex flex-row">
+                            
+                            <img src="/frame botom hamburguesa.svg" alt="">
 
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"fill="#000" viewBox="0 0 24 24">
-                            <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"/></svg> -->
-                            <svg class="icono" xmlns="http://www.w3.org/2000/svg" width="44" height="44"fill="#000" viewBox="0 0 24 24"><path d="M12.707 17.293 8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"/></svg>
-                    </div>
-                </div>s
+
+                            <div class=" flex flex-row justify-center h-full flex-wrap w-full content-center bg-red-500  gap-4 options-darklight">
+
+                                <ul class=" flex justify-center">
+                                    <p class=" text-white">
+
+                                        Oscuro
+                                    </p>
+                                </ul>
+                                <ul class=" flex justify-center">
+                                    <p class=" text-white">
+
+                                        Claro
+                                    </p>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                </div>
             </nav>
             <div class=" flex justify-between start-1 w-[60%] my-4 ml-[6rem]">
                 
@@ -50,17 +67,19 @@
                 <a class="rounded enlace-header cursor-pointer">SUPEROFERTAS </a>
             </div>
         </article>
+
+                <!-- TODO ESTO ES EL CARRUSEL SIN JAVASCRIPT -->
         <article class=" max-w-max-ancho-img mx-auto ">
             <div class="flex flex-col carrusel">
                 
                 <div class="   ">
                 </div>
-                    
+                    <!-- BOTONES OCULTOS A CHECKEAR -->
                     <input class="cursor-pointer h-[2rem] w-[2rem]" type="radio" name="slides" id="slide1" checked>
                     <input class="cursor-pointer h-[2rem] w-[2rem]" type="radio" name="slides" id="slide2" checked>
                     <input class="cursor-pointer h-[2rem] w-[2rem]" type="radio" name="slides" id="slide3" checked>
                     <input class="cursor-pointer h-[2rem] w-[2rem]" type="radio" name="slides" id="slide4" checked>
-                    
+                    <!-- SIEMPRE LOS SLIDES DE HERMANOS CON LOS INPUT -->
                     <ul class="slidess ">
                         <li class="son-ul-slides">
                             <img class="img-header avatar  h-[45%] max-w-max-ancho-img" src="/assets/back-image.jpg" alt="">
@@ -80,7 +99,7 @@
                         </li>
                     </ul>
                 <!-- AL UL JON LO TIENE CON LA CLASE SLIDES, A LAS LI LAS TIENE CON LA CLASE SLIDE -->
-
+                    <!-- BOTONES PARA SALTAR DE IMAGENES -->
                 <aside class="aside-navegacion flex justify-evenly w-[3rem] mx-auto ">
                     <label class=" text-[2rem] px-16 cursor-pointer" for="slide1" id="punto1"></label>
                     <label class="text-[2rem] px-16 cursor-pointer" for="slide2" id="punto2"></label>
@@ -90,7 +109,9 @@
                 </aside>
             </div>
         </article>
-        <!-- carrusel -->
+    <!-- TODO ESTO ES EL CARRUSEL -->
+        
+        
         
         <div class=" w-full h-[10%] py-[1rem]   bg-[#f1f0f0]">
 
@@ -116,8 +137,8 @@
         </article>
         <article class=" w-full">
             <div class=" flex justify-evenly max-w-maximo-ancho mx-auto">
-                <img class="h-[8rem]" src="/assets/make-up.png" alt="">
-                <img class="h-[8rem]" src="/assets/Perfumes.png" alt="">
+                <img class="h-[10rem]" src="/assets/make-up.png" alt="">
+                <img class="h-[10rem]" src="/assets/Perfumes.png" alt="">
             </div>
             
         </article>
@@ -211,8 +232,8 @@
         </article>
         <article class=" w-full">
             <div class=" flex justify-evenly max-w-maximo-ancho mx-auto">
-                <img class="h-[8rem]" src="/assets/Maternidad-y-bebe.png" alt="">
-                <img class="h-[8rem]" src="/assets/Skin-care.png" alt="">
+                <img class="h-[10rem]" src="/assets/Maternidad-y-bebe.png" alt="">
+                <img class="h-[10rem]" src="/assets/Skin-care.png" alt="">
             </div>
             
         </article>
@@ -446,6 +467,6 @@
                     </section>
                 </article>
                 </footer>
-                
+            <script src="/src/script.js"></script>
             </body>
     </html>
