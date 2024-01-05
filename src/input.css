@@ -16,6 +16,8 @@ li{
 }
 .options-darklight{
   display: none;
+  
+  transition:  2s ;
 }
 .options-darklight.open{
   
@@ -26,7 +28,35 @@ li{
   top: 6rem;
   right: 20rem;
   z-index: 999;
+  opacity: 1 ;
+  transition:  2s ;
+  transition-property: opacity;
+  
+}
 
+.ul-cath{
+  display: inline;
+  height: 3rem;
+}
+.ul-cath img, .ul-cath b{
+  cursor: pointer;
+}
+.options-cathegory{
+  display: none;
+}
+.options-cathegoryy{
+  
+  display: block;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 6rem;
+  right: 20rem;
+  z-index: 999;
+  opacity: 1 ;
+  transition:  2s ;
+  transition-property: opacity;
+  
 }
 body{
     overflow-x: hidden;

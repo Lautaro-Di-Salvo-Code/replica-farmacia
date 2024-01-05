@@ -11,7 +11,7 @@
     console.log(buttonHam)
     console.log(infoOptions)
     
-    document.addEventListener('click', e =>{
+    document.addEventListener('mouseover', e =>{
         
         if(e.target.matches('.hamburguer-darklight') 
         || e.target.matches('.hamburguer-darklight img')
@@ -19,7 +19,7 @@
             console.log(e.target)
             infoOptions.classList.add('open')
 
-        } else {
+        } else  {
             infoOptions.classList.remove('open')
 
         }
